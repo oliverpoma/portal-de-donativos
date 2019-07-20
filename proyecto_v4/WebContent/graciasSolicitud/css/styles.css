@@ -1,0 +1,183 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.nav2 {
+	float: left;
+	width: 20%
+}
+
+.contenedor{
+	float: left;
+	padding-left: 5%;
+	width: 70%;
+	margin-top: 10%;
+	text-align:center;
+}
+
+.categoria{
+	position: relative;
+	display: block;
+	background-image: linear-gradient(to right, white, #36A0FF);
+	height: 120px; width: 50%;
+	border: solid 2px black;
+	margin: 2%;
+	border-radius: 20px;
+}
+
+.categoria a:hover{
+	color: black;
+}
+
+.categoria img{
+	height: 100%;
+	width: auto;
+	padding-right: 20%;
+	padding-left: 3%;
+}
+
+h1{
+	text-align: center;
+}
+h3{
+	padding: 0% 10% 5% 10%;
+}
+
+.titulo{
+	margin-top: 2%;
+   }
+
+
+/* usuario */
+.nombre-usuario{
+	text-align: center;
+}
+
+.categoria p{
+	font-size: 110%;
+	display: inline;
+	height: 100%;
+}
+
+.subcategorias{
+	display: none;
+	position: absolute;
+	padding-left: 10%;	
+}
+
+.categoria:hover > .subcategorias{
+	display: inline; 
+}
+
+.subcategoria{
+	display: block;
+	background-image: linear-gradient(to right, white, #EDEDED);
+	height: 90px;
+	width: 230%;
+	border: solid 2px grey;
+	margin: 10%;
+	border-radius: 20px;
+}
+
+.subcategoria:hover, #otros:hover{
+	border-color: lightblue;
+}
+
+.subcategoria img{
+	height: 100%;
+	width: auto;
+	padding-right: 10%;
+	padding-left: 4%;
+}
+
+.subcategoria p{
+	font-size: 90%;
+	display: inline-block;
+	height: 100%;
+}
+
+.formularioi{
+	display: none;
+}
+
+.formulariov{
+	clear: both;
+	display: block;
+	text-align:center;
+	background-image: linear-gradient(to right, white, #EDEDED);
+	border: solid 2px black;
+	padding-bottom: 5%;
+}
+
+.formulariov form fieldset label{
+	clear: both;
+	display: block;
+}
+
+.formulariov label, legend, p{
+	font-size: 150%;
+}
+
+.textinput{
+	width: 30%;
+} 
+
+/* IMAGEN */
+
+.user-img{
+	margin-top: 20px;
+	margin-left: 30%;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100xp;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+/*pefil*/
+
+
+.perfil-direccion{
+	font-size: 110%;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    
+}
+.perfil-telefono{
+	font-size: 110%;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+   
+}
+.principal{
+	margin-left: 10%;
+}
+
+/* table {
+	width: 100%;
+	border: 1px solid #000;
+ }
+ th, td {
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	padding: 0.3em;
+	caption-side: bottom;
+ }
+ caption {
+	padding: 0.3em;
+	color: #fff;
+	 background: #000;
+ }
+ th {
+	background: #eee;
+ } */
